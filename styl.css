@@ -1,0 +1,174 @@
+*{
+    /* box-sizing: border-box; */
+    padding: 0;
+    margin: 0;
+}
+/* navbar top */
+.top{
+     background-color: rgba(238, 224, 208, 0.484); 
+}
+.navbartop  {
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-align:center ;
+    justify-content: space-between;
+}
+/* navbar top */
+/* main content  */
+.main-contant{
+    width: 100%;
+    height: 90vh;
+    background-image: url(./photoo/photo_nav.jpg);
+    background-size:cover ;
+    background-position: 70%;
+}
+/* navbar */
+#navbar-color{
+    background-color: rgba(238,224,208);
+}
+.navbar-nav{
+    margin: auto;
+}
+.nav-link{
+    margin-left: 30px;
+    font-size: bold;
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.nav-link:hover{
+    color: green;
+}
+/* navbar */
+/* content */
+.content{
+    margin-top: 80px;
+    margin-left: 30px;
+}
+.content h1{
+    font-size: 50px;
+}
+#btn1 button {
+width: 150px;
+height: 32px;
+background: transparent;
+border-radius: 10px;
+border: 1px solid black;
+letter-spacing: 3px;
+font-weight: bold;
+transition: 0.5s ease;
+cursor: pointer;
+}
+#btn1 button:hover{
+    background-color: rgba(214, 86, 118, 0.664);
+}
+/* content */
+ /* main content  */
+ /* card1 */
+ .card1{
+    background-color: rgba(238, 224, 208, 0.582); 
+ }
+#btn2 button{
+    width: 100px;
+    height: 32px;
+    background: transparent;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn2 button:hover{
+    background-color:rgba(106, 101, 101, 0.482); 
+}
+  /* card1 */
+   /* card2 */
+   .card2{
+    background-color: rgba(238, 224, 208, 0.582); 
+ }
+#up-down{
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#up-down:hover{
+    transform: translateY(-10px);
+}
+    /* card2 */
+     /* card3 */
+#dd{
+margin-top:30px ;
+}
+#ddd p{
+font-weight: bold; }
+#btn3{
+text-align: center;
+}
+#btn3 button{
+border-radius: 10px;
+width: 150px;
+height: 30px;
+background: transparent; border: 1px solid black;
+transition: 0.5s ease;
+cursor: pointer;
+}
+#btn3 button:hover{
+ background-color:rgba(106, 101, 101, 0.482); 
+}
+/* card3/
+/* about */
+#btn4 button{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    background: transparent; border: 1px solid black;
+    transition: 0.5s ease;
+    cursor: pointer;
+    }
+    #btn4 button:hover{
+     background-color:rgba(106, 101, 101, 0.482); 
+    }
+    /* about */
+    /* footer */
+#footer{
+    width: 100%;
+    background-color: black;
+    margin-top: 100px;
+}
+#footer h1{
+color: white;
+padding-top: 30px;
+}
+#footer p{
+color: white;
+}
+.icons i{
+color:rgba(238,224,208);
+font-size: 30px;
+cursor: pointer;
+}
+.copyright{
+color: white;
+margin-top: 20px;
+}
+.credite{
+color: white;
+}
+    /* footer */
+    /* media  */
+    @media (max-width:420px){
+        .social link i {
+            width: 10px;
+        }
+    }
+    @media (max-width:420px){
+        .content h1{ font-size: 30px;
+        }
+    }
+    @media  (max-width:895px){
+        #btn3 button{
+        width: 100px;
+        }
+        }
+           /* media  */
